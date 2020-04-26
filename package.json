@@ -44,7 +44,7 @@
         "url": "https://github.com/danbosscher/Casper.git"
     },
     "bugs": "https://github.com/danbosscher/Casper/issues",
-    "contributors": "https://github.com/danbosscher/Casper/graphs/contributors",
+
     "devDependencies": {
         "@tryghost/release-utils": "0.6.1",
         "autoprefixer": "9.7.6",
