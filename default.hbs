@@ -43,7 +43,7 @@
     {{#if @labs.members}}
     <div class="subscribe-success-message">
         <a class="subscribe-close" href="javascript:;"></a>
-        You've successfully subscribed to {{@site.title}}!
+        Je krijgt nu de nieuwste mails van {{@site.title}}! Dank je wel!
     </div>
 
     <div id="subscribe" class="subscribe-overlay">
@@ -54,22 +54,21 @@
                 <img class="subscribe-overlay-logo" src="{{@site.logo}}" alt="{{@site.title}}" />
             {{/if}}
             <div class="subscribe-form">
-                <h1 class="subscribe-overlay-title">Subscribe to {{@site.title}}</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest & greatest posts delivered straight to your inbox</p>
+                <h1 class="subscribe-overlay-title">De nieuwsbrief van {{@site.title}}</h1>
+                <p class="subscribe-overlay-description">Ontvang de nieuwste recepten direct in je inbox!</p>
                 <form data-members-form="subscribe">
                     <div class="form-group">
-                        <input class="subscribe-email" data-members-email placeholder="youremail@example.com"
-                            autocomplete="false" />
+                            <input class="subscribe-email" data-members-email placeholder="jouwemail@adres.nl" autocomplete="true" />                            autocomplete="false" />
                         <button class="button primary" type="submit">
-                            <span class="button-content">Subscribe</span>
+                            <span class="button-content">Doorgaan</span>
                             <span class="button-loader">{{> "icons/loader"}}</span>
                         </button>
                     </div>
                     <div class="message-success">
-                        <strong>Great!</strong> Check your inbox and click the link to confirm your subscription.
+                        <strong>Dank je wel!</strong> Kijk in je mailbox voor de bevestigings mail.
                     </div>
                     <div class="message-error">
-                        Please enter a valid email address!
+                        Dit email-adres lijkt niet te kloppen! Probeer het opnieuw.
                     </div>
                 </form>
             </div>
