@@ -1009,9 +1009,8 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-image img {
-    max-height: 600px;
     max-width: 1040px;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
